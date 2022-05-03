@@ -13,6 +13,8 @@
   }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +37,176 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.pddng-10-20rem{
+ 
+  padding-left: 2rem;
+  padding-right: 2rem;
+ 
+  border-bottom: 1px solid rgb(153, 153, 153);
+  border-top: 1px solid rgb(153, 153, 153);
+  height: 1.5rem;
+  margin: 0rem;
+}
+.txt{
+  
+  font-size: 8px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  margin: 0rem;
+  padding-top: 0.5rem;
+}
+
+.ttn-one{
+  font-family: 'Titan One', cursive;
+}
+.clmn{
+  display: flex;
+  flex-direction: row;
+}
+#logo{
+  height: 3rem;
+  width: 3rem;
+  margin: 1rem;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.flx-dsply{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.3rem;
+  justify-content: space-between;
+  width: 60%
+}
+
+button {
+  height: 2rem;
+  border-style: none;
+  border: 2px solid black;
+}
+.fnt-smll{
+  font-size: smaller;
+}
+
+.prdct-blck{
+  width: 15rem;
+  height: 29rem;
+  overflow: hidden;
+  background-size: contain;
+  object-fit: cover;
+  overflow: hidden;
+  position:static;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background:url('https://images.indianexpress.com/2019/09/apple_iphone11_review1.jpg');
+  background-size: cover;
+
+}
+.sctn-blck{
+  width: 16rem;
+  height: 24rem;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 1rem;
+}
+.sctn-grid{
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  justify-content: space-evenly;
+}
+.blck-bttn{
+  margin: 1rem;
+  height: 3rem;
+  width: 6rem;
+  border-style: none;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+.brdr-gry{
+  /* border: 1px solid rgb(150, 150, 150); */
+}
+.img-creen{
+  width: 100%;
+  height: 90vh;
+  
+}
+.algin-cntr{
+  display: flex;
+  justify-content: center;
+}
+.ssj{
+  display: flex;
+  flex-direction: column;
+}
+
+.hgth-rem{
+  height: 23rem;
+}
+.spc-btwn{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.ttn-one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+nav>*{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav{
+  display: flex;
+  align-items: center;
+  width: 80% ;
+  justify-content: flex-end;
+}
+#hola{
+  background-image: url('https://www.muycomputer.com/wp-content/uploads/2020/11/00-iphone-12-pro-opening.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 90vh;
+  position: relative;
+  width: 100%;
+}
+li{
+  display: none;
+}
+.bg-img{
+  background-image: url(https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/3pp/asr/4936b049-9ff7-4547-9a3a-89a704983973.6c52c9289110b2f072113c94b1b7ce6b.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+/* .img-prdct{
+  background-image: url('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MHKM3_AV2?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1603648995000');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+} */
+.pllondra{
+  width: 100%;
+  padding-top: 2em;
+}
+.info-scss {
+font-size: 9px;
+color: gray;
+}
+.blck-bttn-2{
+  margin: 1rem;
+  height: 3rem;
+  width: 10rem;
+  border-style: none;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
 }
